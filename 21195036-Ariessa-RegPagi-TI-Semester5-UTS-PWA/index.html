@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <title>Aries</title>
+</head>
+<body>
+    <!-- need to add img -->
+    <table class="profile_table">
+        <tr>
+            <td><img class="profile" src="img/kuyu.jpeg" alt="felipe profile picture"></td>
+            <td>   
+                <h1>Aries Firmansyah</h1>
+                <p><em>Selamat datang di Portofolio <strong>Pendidikan Saya!</strong> </em></p>
+                <p>Saya adalah seorang individu yang bersemangat untuk terus belajar dan mencapai pencapaian akademis yang tinggi.
+                </p></td>
+        </tr>
+    </table>
+ 
+    <hr>
+    <h3>Pendidikan</h3>
+        <ul>
+            <li>Gelar Sarjana dalam Teknik Informatika</li>
+            <li>Institusi: STMIK YMI TEGAL</li>
+            <li>Tahun Lulus: 2025</li>
+            <li>Prestasi: Lulus dengan Predikat Cum Laude</li>
+        </ul>
+    <hr>
+    <h3>Pengalaman Kerja</h3>
+     <!-- thead and tbody helps later on-->
+        <table cellspacing="10">
+            <thead>
+                <tr>
+                    <th>Tahun</th>
+                    <th>Pekerjaan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>2021 - 2023</th>
+                    <th>Admin Ekspedisi J&T Express</th>
+                </tr>
+                <tr>
+                    <th>2022 - 2023</th>
+                    <th>Online Shop</th>
+                </tr>
+            </tbody>
+        </table>
+    <hr>
+     <h3>Skills</h3>
+        <table table cellspacing="10">
+            <tr>
+                <td>Bermain Game</td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Menonton Film</td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                 <td>Membuat Layangan</td>
+                 <td>⭐⭐⭐⭐</td>
+            </tr>
+        </table>   
+        <form id="commentForm">
+            <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama" required><br><br>
+            <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" required><br><br>
+            <label for="komentar">Input Komentar :</label><br>
+                <textarea id="komentar" name="komentar" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Kirim Komentar">
+         </form>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="contact.html">Contact Me</a> 
+    <script src="js/main.js"></script> 
+    <script src="indexdb.js"></script> 
+    <script src="js/notifikasi.js"></script> 
+</body>
+</html>
